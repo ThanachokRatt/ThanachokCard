@@ -11,6 +11,8 @@
 		F80E0B9929C07DD00075FB02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80E0B9829C07DD00075FB02 /* ContentView.swift */; };
 		F80E0B9B29C07DD10075FB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80E0B9A29C07DD10075FB02 /* Assets.xcassets */; };
 		F80E0B9E29C07DD10075FB02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80E0B9D29C07DD10075FB02 /* Preview Assets.xcassets */; };
+		F85F175D29C1AB4100F060C2 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F85F175C29C1AB4100F060C2 /* Pacifico-Regular.ttf */; };
+		F85F176029C1B6FF00F060C2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F175F29C1B6FF00F060C2 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		F80E0B9829C07DD00075FB02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F80E0B9A29C07DD10075FB02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F80E0B9D29C07DD10075FB02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F85F175C29C1AB4100F060C2 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		F85F175E29C1AD6100F060C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F85F175F29C1B6FF00F060C2 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		F80E0B9529C07DD00075FB02 /* ThanachokCard */ = {
 			isa = PBXGroup;
 			children = (
+				F85F175E29C1AD6100F060C2 /* Info.plist */,
+				F85F175B29C1AB1E00F060C2 /* fonts */,
 				F80E0B9629C07DD00075FB02 /* ThanachokCardApp.swift */,
 				F80E0B9829C07DD00075FB02 /* ContentView.swift */,
+				F85F175F29C1B6FF00F060C2 /* InfoView.swift */,
 				F80E0B9A29C07DD10075FB02 /* Assets.xcassets */,
 				F80E0B9C29C07DD10075FB02 /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				F80E0B9D29C07DD10075FB02 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F85F175B29C1AB1E00F060C2 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F85F175C29C1AB4100F060C2 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F85F175D29C1AB4100F060C2 /* Pacifico-Regular.ttf in Resources */,
 				F80E0B9E29C07DD10075FB02 /* Preview Assets.xcassets in Resources */,
 				F80E0B9B29C07DD10075FB02 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F80E0B9929C07DD00075FB02 /* ContentView.swift in Sources */,
+				F85F176029C1B6FF00F060C2 /* InfoView.swift in Sources */,
 				F80E0B9729C07DD00075FB02 /* ThanachokCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +287,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ThanachokCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThanachokCard/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +317,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ThanachokCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThanachokCard/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

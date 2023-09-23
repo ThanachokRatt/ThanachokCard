@@ -22,7 +22,7 @@ struct ContentView: View {
                         Circle()
                             .stroke(Color.white,lineWidth : 5))
 
-                Text("Thanachok ")
+                Text("Thanachok 123")
                     .font(Font.custom("Pacifico-Regular", size: 32))
                     .bold()
                 .foregroundColor(.white )
